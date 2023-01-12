@@ -1,2 +1,2 @@
-function e(e){return void 0===e&&(e="Sergio"),"Hello, "+e}export{e as default};
+function o(o){return void 0===o&&(o="Wilson2"),"Hello, "+o}export{o as default};
 //# sourceMappingURL=index.mjs.map
