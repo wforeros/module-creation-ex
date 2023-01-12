@@ -1,1 +1,1 @@
-{"version":3,"file":"index.modern.mjs","sources":["../src/index.ts"],"sourcesContent":["function hello(name = \"Wilson2\") {\n  return `Hello, ${name}`;\n}\n\nexport default hello;"],"names":["hello","name"],"mappings":"AAAA,SAAcA,EAACC,EAAO,WACpB,MAAO,UAAUA,GACnB"}
+{"version":3,"file":"index.modern.mjs","sources":["../src/index.ts"],"sourcesContent":["function hello(name = \"Wilson3\") {\n  return `Hello, ${name}`;\n}\n\nexport default hello;"],"names":["hello","name"],"mappings":"AAAA,SAAcA,EAACC,EAAO,WACpB,MAAO,UAAUA,GACnB"}
