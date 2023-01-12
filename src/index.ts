@@ -1,5 +1,7 @@
+import User from "./models/user";
+
 function hello(name = "Wilson4") {
   return `Hello, ${name}`;
 }
 
-export default hello;
+export { hello, User };
