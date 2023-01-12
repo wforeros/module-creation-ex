@@ -1,2 +1,2 @@
-var e=require("mongoose"),o=new e.Schema({name:String,email:String}),r=e.model("Blog",o);exports.User=r,exports.hello=function(e){return void 0===e&&(e="Wilson4"),"Hello, "+e};
+exports.BrandDAL=function(t){this._id=void 0,this.name=void 0,this.code=void 0,this.website=void 0,this.logo=void 0,this.description=void 0,this.created_at=void 0,this.updated_at=void 0,this.deleted_at=void 0,this._id=t._id,this.name=t.name,this.code=t.code,this.website=t.website,this.description=t.description,this.created_at=t.created_at,this.updated_at=t.updated_at,this.deleted_at=t.deleted_at},exports.hello=function(t){return void 0===t&&(t="Wilson4"),"Hello, "+t};
 //# sourceMappingURL=index.js.map

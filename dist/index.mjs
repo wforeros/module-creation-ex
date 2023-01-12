@@ -1,2 +1,2 @@
-import{Schema as o,model as n}from"mongoose";var r=n("Blog",new o({name:String,email:String}));function e(o){return void 0===o&&(o="Wilson4"),"Hello, "+o}export{r as User,e as hello};
+var t=function(t){this._id=void 0,this.name=void 0,this.code=void 0,this.website=void 0,this.logo=void 0,this.description=void 0,this.created_at=void 0,this.updated_at=void 0,this.deleted_at=void 0,this._id=t._id,this.name=t.name,this.code=t.code,this.website=t.website,this.description=t.description,this.created_at=t.created_at,this.updated_at=t.updated_at,this.deleted_at=t.deleted_at};function i(t){return void 0===t&&(t="Wilson4"),"Hello, "+t}export{t as BrandDAL,i as hello};
 //# sourceMappingURL=index.mjs.map

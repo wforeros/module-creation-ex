@@ -1,2 +1,2 @@
-import{Schema as o,model as n}from"mongoose";const e=n("Blog",new o({name:String,email:String}));function r(o="Wilson4"){return`Hello, ${o}`}export{e as User,r as hello};
+class t{constructor(t){this._id=void 0,this.name=void 0,this.code=void 0,this.website=void 0,this.logo=void 0,this.description=void 0,this.created_at=void 0,this.updated_at=void 0,this.deleted_at=void 0,this._id=t._id,this.name=t.name,this.code=t.code,this.website=t.website,this.description=t.description,this.created_at=t.created_at,this.updated_at=t.updated_at,this.deleted_at=t.deleted_at}}function i(t="Wilson4"){return`Hello, ${t}`}export{t as BrandDAL,i as hello};
 //# sourceMappingURL=index.modern.mjs.map
