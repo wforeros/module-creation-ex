@@ -1,2 +1,2 @@
-!function(e,o){"object"==typeof exports&&"undefined"!=typeof module?module.exports=function(e){return void 0===e&&(e="Wilson4"),"Hello, "+e}:"function"==typeof define&&define.amd?define(function(){return function(e){return void 0===e&&(e="Wilson4"),"Hello, "+e}}):(e||self).moduleCreationEx=function(e){return void 0===e&&(e="Wilson4"),"Hello, "+e}}(this);
+!function(e,o){"object"==typeof exports&&"undefined"!=typeof module?o(exports,require("mongoose")):"function"==typeof define&&define.amd?define(["exports","mongoose"],o):o((e||self).moduleCreationEx={},e.mongoose)}(this,function(e,o){var n=new o.Schema({name:String,email:String}),i=o.model("Blog",n);e.User=i,e.hello=function(e){return void 0===e&&(e="Wilson4"),"Hello, "+e}});
 //# sourceMappingURL=index.umd.js.map

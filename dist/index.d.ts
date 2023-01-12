@@ -1,2 +1,3 @@
+import User from "./models/user";
 declare function hello(name?: string): string;
-export default hello;
+export { hello, User };
