@@ -1,4 +1,8 @@
-import { ITimestampsDAL } from '../../interfaces/itimestamp';
+export interface ITimestampsDAL {
+    created_at: Date | null;
+    updated_at: Date | null;
+    deleted_at: Date | null;
+}
 export interface IBrandDAL {
     _id: string;
     name: string;
