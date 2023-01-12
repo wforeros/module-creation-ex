@@ -1,0 +1,1 @@
+{"version":3,"file":"index.mjs","sources":["../src/index.ts"],"sourcesContent":["function hello(name = \"Sergio\") {\n  return `Hello, ${name}`;\n}\n\nexport default hello;"],"names":["hello","name"],"mappings":"AAAA,SAAcA,EAACC,GACb,YADiB,IAAJA,IAAAA,EAAO,UACpB,UAAiBA,CACnB"}
