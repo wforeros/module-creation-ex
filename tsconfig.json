@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "CommonJS",
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./lib/cjs",
+    "declaration": true
+  },
+  "include": [
+    "typings.d.ts",
+    "src/**/*.ts"
+  ],
+  "exclude": [
+      "node_modules",
+      "test"
+  ]
+}
